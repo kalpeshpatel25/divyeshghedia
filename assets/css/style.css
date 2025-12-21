@@ -97,7 +97,7 @@
         flex-wrap: wrap;
     }
     .header-flexbox .flex-left {
-        width: calc(100% - 150px);
+        width: calc(100% - 150px); 
         display: flex;
         align-items: center;
         gap: 60px;
