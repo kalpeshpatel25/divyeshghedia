@@ -13,3 +13,7 @@ $(function () {
     toggleHeaderShrink(); // set initial state on load
     $(window).on('scroll', toggleHeaderShrink);
 });
+
+$('.mobile-toggle-link').on('click', function () {
+    $('#nav-menu').slideToggle();
+});
